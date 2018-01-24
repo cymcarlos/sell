@@ -1,0 +1,22 @@
+package com.carlos;
+
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
+public class OReillyByName {
+
+	
+	public static void main(String[] args){
+		try {
+			InetAddress[] address =  InetAddress.getAllByName("www.baidu.com");
+			for(InetAddress i: address){
+				 System.out.println(i);
+			}
+		   
+		} catch (UnknownHostException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+}
