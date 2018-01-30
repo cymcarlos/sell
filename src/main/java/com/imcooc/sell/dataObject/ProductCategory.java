@@ -14,6 +14,8 @@ import java.util.Date;
 @Data  //打包的时候再生成，性能是一样的
 public class ProductCategory {
 
+
+
     /**
      * id
      */
